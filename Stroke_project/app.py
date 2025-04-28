@@ -1,3 +1,5 @@
+###pakage install##
+###pip install dash dash-bootstrap-components pandas numpy
 ### Import Packages ########################################
 import dash
 from dash import dcc
