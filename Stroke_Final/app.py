@@ -38,4 +38,4 @@ def render_tab(tab):
 register_prediction_callbacks(app)
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
