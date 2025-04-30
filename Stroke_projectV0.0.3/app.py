@@ -7,7 +7,7 @@ from dashboard_tab import get_dashboard_tab
 from prediction_tab import get_prediction_tab, register_prediction_callbacks
 import dash_bootstrap_components as dbc
 
-stroke_visualize = pd.read_csv('stroke_data.csv')
+stroke_visualize = pd.read_csv('stroke_labeled.csv')
 
 # Create the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
